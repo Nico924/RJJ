@@ -1,0 +1,202 @@
+The system is: Darwin - 11.4.2 - i386
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles/2.8.10.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles/2.8.10.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3399303104/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3399303104.dir/build.make CMakeFiles/cmTryCompileExec3399303104.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3399303104.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3399303104.dir/testCCompiler.c.o   -c /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3399303104
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec3399303104.dir/link.txt --verbose=1
+/usr/bin/cc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec3399303104.dir/testCCompiler.c.o  -o cmTryCompileExec3399303104  
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1963333711/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1963333711.dir/build.make CMakeFiles/cmTryCompileExec1963333711.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1963333711.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1963333711.dir/CMakeCCompilerABI.c.o   -c "/Applications/CMake 2.8-10.app/Contents/share/cmake-2.8/Modules/CMakeCCompilerABI.c"
+Linking C executable cmTryCompileExec1963333711
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec1963333711.dir/link.txt --verbose=1
+/usr/bin/cc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec1963333711.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1963333711   
+Apple clang version 4.1 (tags/Apple/clang-421.11.66) (based on LLVM 3.1svn)
+Target: x86_64-apple-darwin11.4.2
+Thread model: posix
+ "/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.7.0 -o cmTryCompileExec1963333711 -lcrt1.10.6.o -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec1963333711.dir/CMakeCCompilerABI.c.o -lSystem /usr/bin/../lib/clang/4.1/lib/darwin/libclang_rt.osx.a
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec1963333711/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1963333711.dir/build.make CMakeFiles/cmTryCompileExec1963333711.dir/build]
+  ignore line: ["/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec1963333711.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1963333711.dir/CMakeCCompilerABI.c.o   -c "/Applications/CMake 2.8-10.app/Contents/share/cmake-2.8/Modules/CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTryCompileExec1963333711]
+  ignore line: ["/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec1963333711.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec1963333711.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1963333711   ]
+  ignore line: [Apple clang version 4.1 (tags/Apple/clang-421.11.66) (based on LLVM 3.1svn)]
+  ignore line: [Target: x86_64-apple-darwin11.4.2]
+  ignore line: [Thread model: posix]
+  link line: [ "/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.7.0 -o cmTryCompileExec1963333711 -lcrt1.10.6.o -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec1963333711.dir/CMakeCCompilerABI.c.o -lSystem /usr/bin/../lib/clang/4.1/lib/darwin/libclang_rt.osx.a]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.7.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1963333711] ==> ignore
+    arg [-lcrt1.10.6.o] ==> lib [crt1.10.6.o]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec1963333711.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/usr/bin/../lib/clang/4.1/lib/darwin/libclang_rt.osx.a] ==> lib [/usr/bin/../lib/clang/4.1/lib/darwin/libclang_rt.osx.a]
+  remove lib [crt1.10.6.o]
+  remove lib [System]
+  implicit libs: [/usr/bin/../lib/clang/4.1/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec71714995/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec71714995.dir/build.make CMakeFiles/cmTryCompileExec71714995.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec71714995.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec71714995.dir/testCXXCompiler.cxx.o -c /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec71714995
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec71714995.dir/link.txt --verbose=1
+/usr/bin/c++       -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec71714995.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec71714995  
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2670205241/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2670205241.dir/build.make CMakeFiles/cmTryCompileExec2670205241.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2670205241.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2670205241.dir/CMakeCXXCompilerABI.cpp.o -c "/Applications/CMake 2.8-10.app/Contents/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTryCompileExec2670205241
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec2670205241.dir/link.txt --verbose=1
+/usr/bin/c++       -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec2670205241.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2670205241   
+Apple clang version 4.1 (tags/Apple/clang-421.11.66) (based on LLVM 3.1svn)
+Target: x86_64-apple-darwin11.4.2
+Thread model: posix
+ "/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.7.0 -o cmTryCompileExec2670205241 -lcrt1.10.6.o -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec2670205241.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lSystem /usr/bin/../lib/clang/4.1/lib/darwin/libclang_rt.osx.a
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec2670205241/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2670205241.dir/build.make CMakeFiles/cmTryCompileExec2670205241.dir/build]
+  ignore line: ["/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2670205241.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2670205241.dir/CMakeCXXCompilerABI.cpp.o -c "/Applications/CMake 2.8-10.app/Contents/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp"]
+  ignore line: [Linking CXX executable cmTryCompileExec2670205241]
+  ignore line: ["/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec2670205241.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec2670205241.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2670205241   ]
+  ignore line: [Apple clang version 4.1 (tags/Apple/clang-421.11.66) (based on LLVM 3.1svn)]
+  ignore line: [Target: x86_64-apple-darwin11.4.2]
+  ignore line: [Thread model: posix]
+  link line: [ "/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.7.0 -o cmTryCompileExec2670205241 -lcrt1.10.6.o -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec2670205241.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lSystem /usr/bin/../lib/clang/4.1/lib/darwin/libclang_rt.osx.a]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.7.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2670205241] ==> ignore
+    arg [-lcrt1.10.6.o] ==> lib [crt1.10.6.o]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec2670205241.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lSystem] ==> lib [System]
+    arg [/usr/bin/../lib/clang/4.1/lib/darwin/libclang_rt.osx.a] ==> lib [/usr/bin/../lib/clang/4.1/lib/darwin/libclang_rt.osx.a]
+  remove lib [crt1.10.6.o]
+  remove lib [System]
+  implicit libs: [stdc++;/usr/bin/../lib/clang/4.1/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: []
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3047138431/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3047138431.dir/build.make CMakeFiles/cmTryCompileExec3047138431.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3047138431.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3047138431.dir/CheckIncludeFiles.c.o   -c /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3047138431
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec3047138431.dir/link.txt --verbose=1
+/usr/bin/cc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec3047138431.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3047138431  
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2210622767/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2210622767.dir/build.make CMakeFiles/cmTryCompileExec2210622767.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2210622767.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2210622767.dir/CheckSymbolExists.c.o   -c /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2210622767
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec2210622767.dir/link.txt --verbose=1
+/usr/bin/cc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec2210622767.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2210622767  
+
+File /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
