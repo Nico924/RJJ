@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -dynamiclib -Wl,-headerpad_max_install_names   -o sdk/lib/naoqi/libfastgetsetdcm.dylib -install_name @executable_path/../lib/libfastgetsetdcm.dylib CMakeFiles/fastgetsetdcm.dir/move.cpp.o CMakeFiles/fastgetsetdcm.dir/main.cpp.o CMakeFiles/fastgetsetdcm.dir/fastgetsetdcm.cpp.o 

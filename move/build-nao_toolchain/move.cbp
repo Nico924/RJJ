@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="move" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\.cache\;CMake Files\..\..\..\..\..\.cache\qi\;CMake Files\..\..\..\..\..\.cache\qi\toolchains\;CMake Files\..\..\..\..\..\.cache\qi\toolchains\nao_toolchain\;CMake Files\..\..\qibuild-1.14.1\;CMake Files\..\..\qibuild-1.14.1\cmake\;CMake Files\..\..\qibuild-1.14.1\cmake\qibuild\;CMake Files\..\..\qibuild-1.14.1\cmake\qibuild\internal\;CMake Files\build-nao_toolchain\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="/usr/bin/make -f &quot;/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="/usr/bin/make -f &quot;/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="/usr/bin/make -f &quot;/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="move">
+         <Option output="/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain/sdk/bin/move" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include" />
+            <Add directory="/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alsoap" />
+            <Add directory="/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/soap" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain/Makefile&quot;  VERBOSE=1 move" />
+            <CompileFile command="/usr/bin/make -f &quot;/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="move/fast">
+         <Option output="/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain/sdk/bin/move" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include" />
+            <Add directory="/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alsoap" />
+            <Add directory="/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/soap" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain/Makefile&quot;  VERBOSE=1 move/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/main.cpp">
+      </Unit>
+      <Unit filename="/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/move.cpp">
+      </Unit>
+      <Unit filename="/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/move.h">
+      </Unit>
+      <Unit filename="/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/../../../../../.cache/qi/toolchains/nao_toolchain/toolchain-nao_toolchain.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\.cache\qi\toolchains\nao_toolchain\" />
+      </Unit>
+      <Unit filename="/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/../../qibuild-1.14.1/cmake/qibuild/qibuild-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\qibuild-1.14.1\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/../../qibuild-1.14.1/cmake/qibuild/general.cmake">
+          <Option virtualFolder="CMake Files\..\..\qibuild-1.14.1\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/../../qibuild-1.14.1/cmake/qibuild/log.cmake">
+          <Option virtualFolder="CMake Files\..\..\qibuild-1.14.1\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/../../qibuild-1.14.1/cmake/qibuild/set.cmake">
+          <Option virtualFolder="CMake Files\..\..\qibuild-1.14.1\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/../../qibuild-1.14.1/cmake/qibuild/subdirectory.cmake">
+          <Option virtualFolder="CMake Files\..\..\qibuild-1.14.1\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/../../qibuild-1.14.1/cmake/qibuild/find.cmake">
+          <Option virtualFolder="CMake Files\..\..\qibuild-1.14.1\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/../../qibuild-1.14.1/cmake/qibuild/flags.cmake">
+          <Option virtualFolder="CMake Files\..\..\qibuild-1.14.1\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/../../qibuild-1.14.1/cmake/qibuild/tests.cmake">
+          <Option virtualFolder="CMake Files\..\..\qibuild-1.14.1\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/../../qibuild-1.14.1/cmake/qibuild/install.cmake">
+          <Option virtualFolder="CMake Files\..\..\qibuild-1.14.1\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/../../qibuild-1.14.1/cmake/qibuild/target.cmake">
+          <Option virtualFolder="CMake Files\..\..\qibuild-1.14.1\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/../../qibuild-1.14.1/cmake/qibuild/submodule.cmake">
+          <Option virtualFolder="CMake Files\..\..\qibuild-1.14.1\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/../../qibuild-1.14.1/cmake/qibuild/stage.cmake">
+          <Option virtualFolder="CMake Files\..\..\qibuild-1.14.1\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/../../qibuild-1.14.1/cmake/qibuild/option.cmake">
+          <Option virtualFolder="CMake Files\..\..\qibuild-1.14.1\cmake\qibuild\" />
+      </Unit>
+      <Unit filename="/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/../../qibuild-1.14.1/cmake/qibuild/internal/layout.cmake">
+          <Option virtualFolder="CMake Files\..\..\qibuild-1.14.1\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/../../qibuild-1.14.1/cmake/qibuild/internal/install.cmake">
+          <Option virtualFolder="CMake Files\..\..\qibuild-1.14.1\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/../../qibuild-1.14.1/cmake/qibuild/internal/glob.cmake">
+          <Option virtualFolder="CMake Files\..\..\qibuild-1.14.1\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/../../qibuild-1.14.1/cmake/qibuild/internal/autostrap.cmake">
+          <Option virtualFolder="CMake Files\..\..\qibuild-1.14.1\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/../../qibuild-1.14.1/cmake/qibuild/internal/stage.cmake">
+          <Option virtualFolder="CMake Files\..\..\qibuild-1.14.1\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/../../qibuild-1.14.1/cmake/qibuild/internal/uselib.cmake">
+          <Option virtualFolder="CMake Files\..\..\qibuild-1.14.1\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/../../qibuild-1.14.1/cmake/qibuild/internal/list.cmake">
+          <Option virtualFolder="CMake Files\..\..\qibuild-1.14.1\cmake\qibuild\internal\" />
+      </Unit>
+      <Unit filename="/Users/nicolasbernier/Documents/NAO/1.14.1/PROJECT/move/build-nao_toolchain/dependencies.cmake">
+          <Option virtualFolder="CMake Files\build-nao_toolchain\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
