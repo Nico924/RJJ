@@ -1,6 +1,8 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/NAO_RJJ.dir/move.cpp.o"
   "CMakeFiles/NAO_RJJ.dir/main.cpp.o"
+  "CMakeFiles/NAO_RJJ.dir/robot.cpp.o"
+  "CMakeFiles/NAO_RJJ.dir/robotsmanager.cpp.o"
   "sdk/bin/NAO_RJJ.pdb"
   "sdk/bin/NAO_RJJ"
 )

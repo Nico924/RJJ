@@ -23,7 +23,7 @@ ALCOMMON-INTERNAL_DIR:PATH=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-
 ALCOMMON-INTERNAL_INCLUDE_DIRS:STRING=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include;
 
 //Path to a library.
-ALCOMMON-INTERNAL_LIBRARY:FILEPATH=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libalcommon.dylib
+ALCOMMON-INTERNAL_LIBRARY:FILEPATH=/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/sdk/lib/libalcommon.dylib
 
 //Path to a library.
 ALCOMMON_DEBUG_LIBRARY:FILEPATH=ALCOMMON_DEBUG_LIBRARY-NOTFOUND
@@ -34,7 +34,7 @@ ALCOMMON_DIR:PATH=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-ma
 ALCOMMON_INCLUDE_DIRS:STRING=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include;
 
 //Path to a library.
-ALCOMMON_LIBRARY:FILEPATH=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libalproxies.dylib
+ALCOMMON_LIBRARY:FILEPATH=/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/sdk/lib/libalproxies.dylib
 
 //Path to a library.
 ALERROR_DEBUG_LIBRARY:FILEPATH=ALERROR_DEBUG_LIBRARY-NOTFOUND
@@ -45,7 +45,7 @@ ALERROR_DIR:PATH=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac
 ALERROR_INCLUDE_DIRS:STRING=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include;
 
 //Path to a library.
-ALERROR_LIBRARY:FILEPATH=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libalerror.dylib
+ALERROR_LIBRARY:FILEPATH=/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/sdk/lib/libalerror.dylib
 
 //Path to a library.
 ALMEMORYFASTACCESS_DEBUG_LIBRARY:FILEPATH=ALMEMORYFASTACCESS_DEBUG_LIBRARY-NOTFOUND
@@ -67,7 +67,7 @@ ALPROXIES_DIR:PATH=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-m
 ALPROXIES_INCLUDE_DIRS:STRING=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include;
 
 //Path to a library.
-ALPROXIES_LIBRARY:FILEPATH=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libalproxies.dylib
+ALPROXIES_LIBRARY:FILEPATH=/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/sdk/lib/libalproxies.dylib
 
 //Path to a library.
 ALSOAP_DEBUG_LIBRARY:FILEPATH=ALSOAP_DEBUG_LIBRARY-NOTFOUND
@@ -89,7 +89,7 @@ ALTHREAD_DIR:PATH=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-ma
 ALTHREAD_INCLUDE_DIRS:STRING=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include;
 
 //Path to a library.
-ALTHREAD_LIBRARY:FILEPATH=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libalthread.dylib
+ALTHREAD_LIBRARY:FILEPATH=/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/sdk/lib/libalthread.dylib
 
 //Path to a library.
 ALVALUE_DEBUG_LIBRARY:FILEPATH=ALVALUE_DEBUG_LIBRARY-NOTFOUND
@@ -100,7 +100,7 @@ ALVALUE_DIR:PATH=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac
 ALVALUE_INCLUDE_DIRS:STRING=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include;
 
 //Path to a library.
-ALVALUE_LIBRARY:FILEPATH=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libalvalue.dylib
+ALVALUE_LIBRARY:FILEPATH=/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/sdk/lib/libalvalue.dylib
 
 //The directory containing a CMake configuration file for BOOST.
 BOOST_DIR:PATH=/Users/nicolasbernier/Documents/NAO/1.14.1/qibuild-1.14.1/cmake/qibuild/modules
@@ -216,9 +216,6 @@ Boost_THREAD_LIBRARY_DEBUG:FILEPATH=/Users/nicolasbernier/Documents/NAO/1.14.1/n
 //Boost thread library (release)
 Boost_THREAD_LIBRARY_RELEASE:FILEPATH=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libboost_thread-mt.a
 
-//Path to a program.
-CMAKE_AR:FILEPATH=/usr/bin/ar
-
 //Choose the type of build, options are: None(CMAKE_CXX_FLAGS or
 // CMAKE_C_FLAGS used) Debug Release RelWithDebInfo MinSizeRel.
 CMAKE_BUILD_TYPE:STRING=Debug
@@ -291,9 +288,6 @@ CMAKE_INSTALL_NAME_TOOL:FILEPATH=/usr/bin/install_name_tool
 CMAKE_INSTALL_PREFIX:PATH=/usr/local
 
 //Path to a program.
-CMAKE_LINKER:FILEPATH=/usr/bin/ld
-
-//Path to a program.
 CMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/make
 
 //Flags used by the linker during the creation of modules.
@@ -311,15 +305,6 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=
 //Flags used by the linker during Release with Debug Info builds.
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
-//Path to a program.
-CMAKE_NM:FILEPATH=/usr/bin/nm
-
-//Path to a program.
-CMAKE_OBJCOPY:FILEPATH=CMAKE_OBJCOPY-NOTFOUND
-
-//Path to a program.
-CMAKE_OBJDUMP:FILEPATH=CMAKE_OBJDUMP-NOTFOUND
-
 //Build architectures for OSX
 CMAKE_OSX_ARCHITECTURES:STRING=
 
@@ -333,9 +318,6 @@ CMAKE_OSX_SYSROOT:STRING=
 
 //Value Computed by CMake
 CMAKE_PROJECT_NAME:STATIC=NAO_RJJ
-
-//Path to a program.
-CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
 
 //Flags used by the linker during the creation of dll's.
 CMAKE_SHARED_LINKER_FLAGS:STRING=' '
@@ -359,11 +341,8 @@ CMAKE_SKIP_INSTALL_RPATH:BOOL=NO
 //If set, runtime paths are not added when using shared libraries.
 CMAKE_SKIP_RPATH:BOOL=NO
 
-//Path to a program.
-CMAKE_STRIP:FILEPATH=/usr/bin/strip
-
-//The CMake toolchain file
-CMAKE_TOOLCHAIN_FILE:FILEPATH=/Users/nicolasbernier/.cache/qi/toolchains/nao_toolchain/toolchain-nao_toolchain.cmake
+//No help, variable specified on the command line.
+CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=/Users/nicolasbernier/.cache/qi/toolchains/nao_toolchain/toolchain-nao_toolchain.cmake
 
 //If true, cmake will use relative paths in makefiles and projects.
 CMAKE_USE_RELATIVE_PATHS:BOOL=OFF
@@ -415,7 +394,7 @@ QI_DIR:PATH=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/sh
 QI_INCLUDE_DIRS:STRING=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include;
 
 //Path to a library.
-QI_LIBRARY:FILEPATH=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libqi.dylib
+QI_LIBRARY:FILEPATH=/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/sdk/lib/libqi.dylib
 
 //Path to a library.
 RTTOOLS_DEBUG_LIBRARY:FILEPATH=RTTOOLS_DEBUG_LIBRARY-NOTFOUND
@@ -426,7 +405,7 @@ RTTOOLS_DIR:PATH=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac
 RTTOOLS_INCLUDE_DIRS:STRING=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include;
 
 //Path to a library.
-RTTOOLS_LIBRARY:FILEPATH=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/librttools.dylib
+RTTOOLS_LIBRARY:FILEPATH=/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/sdk/lib/librttools.dylib
 
 //Path to a library.
 TINYXML_DEBUG_LIBRARY:FILEPATH=TINYXML_DEBUG_LIBRARY-NOTFOUND
@@ -437,7 +416,7 @@ TINYXML_DIR:PATH=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac
 TINYXML_INCLUDE_DIRS:STRING=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include;
 
 //Path to a library.
-TINYXML_LIBRARY:FILEPATH=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libtinyxml.dylib
+TINYXML_LIBRARY:FILEPATH=/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/sdk/lib/libtinyxml.dylib
 
 _QI_USE_LIB_NAO_RJJ:STRING=
 
@@ -461,19 +440,19 @@ pthread_LIB:FILEPATH=/usr/lib/libpthread.dylib
 ########################
 
 ALCOMMON-INTERNAL_DEPENDS:INTERNAL=ALSOAP;RTTOOLS;ALTHREAD;BOOST_SIGNALS;BOOST_PROGRAM_OPTIONS;ALVALUE;TINYXML;QI;ALERROR;BOOST;BOOST_FILESYSTEM;BOOST_THREAD;BOOST_SYSTEM;PTHREAD;DL
-ALCOMMON-INTERNAL_LIBRARIES:INTERNAL=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libalcommon.dylib
+ALCOMMON-INTERNAL_LIBRARIES:INTERNAL=/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/sdk/lib/libalcommon.dylib
 ALCOMMON-INTERNAL_PACKAGE_FOUND:INTERNAL=TRUE
 ALCOMMON-INTERNAL_SEARCHED:INTERNAL=TRUE
 ALCOMMON_DEPENDS:INTERNAL=ALCOMMON-INTERNAL;ALSOAP;RTTOOLS;ALTHREAD;BOOST_SIGNALS;BOOST_PROGRAM_OPTIONS;ALVALUE;TINYXML;QI;BOOST_FILESYSTEM;BOOST_THREAD;BOOST_SYSTEM;PTHREAD;DL;ALERROR;BOOST
 //ADVANCED property for variable: ALCOMMON_INCLUDE_DIRS
 ALCOMMON_INCLUDE_DIRS-ADVANCED:INTERNAL=1
-ALCOMMON_LIBRARIES:INTERNAL=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libalproxies.dylib
+ALCOMMON_LIBRARIES:INTERNAL=/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/sdk/lib/libalproxies.dylib
 ALCOMMON_PACKAGE_FOUND:INTERNAL=TRUE
 ALCOMMON_SEARCHED:INTERNAL=TRUE
 ALERROR_DEPENDS:INTERNAL=
 //ADVANCED property for variable: ALERROR_INCLUDE_DIRS
 ALERROR_INCLUDE_DIRS-ADVANCED:INTERNAL=1
-ALERROR_LIBRARIES:INTERNAL=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libalerror.dylib
+ALERROR_LIBRARIES:INTERNAL=/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/sdk/lib/libalerror.dylib
 ALERROR_PACKAGE_FOUND:INTERNAL=TRUE
 ALERROR_SEARCHED:INTERNAL=TRUE
 ALMEMORYFASTACCESS_DEPENDS:INTERNAL=ALCOMMON;alproxies;ALCOMMON-INTERNAL;ALSOAP;RTTOOLS;ALTHREAD;BOOST_SIGNALS;BOOST_PROGRAM_OPTIONS;ALVALUE;TINYXML;QI;BOOST_FILESYSTEM;BOOST_THREAD;BOOST_SYSTEM;PTHREAD;DL;ALERROR;BOOST
@@ -485,7 +464,7 @@ ALMEMORYFASTACCESS_SEARCHED:INTERNAL=TRUE
 ALPROXIES_DEPENDS:INTERNAL=ALCOMMON-INTERNAL;ALSOAP;RTTOOLS;ALTHREAD;BOOST_SIGNALS;BOOST_PROGRAM_OPTIONS;ALVALUE;TINYXML;QI;BOOST_FILESYSTEM;BOOST_THREAD;BOOST_SYSTEM;PTHREAD;DL;ALERROR;BOOST
 //ADVANCED property for variable: ALPROXIES_INCLUDE_DIRS
 ALPROXIES_INCLUDE_DIRS-ADVANCED:INTERNAL=1
-ALPROXIES_LIBRARIES:INTERNAL=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libalproxies.dylib
+ALPROXIES_LIBRARIES:INTERNAL=/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/sdk/lib/libalproxies.dylib
 ALPROXIES_PACKAGE_FOUND:INTERNAL=TRUE
 ALPROXIES_SEARCHED:INTERNAL=TRUE
 ALSOAP_DEPENDS:INTERNAL=ALVALUE;TINYXML;ALERROR;BOOST
@@ -497,13 +476,13 @@ ALSOAP_SEARCHED:INTERNAL=TRUE
 ALTHREAD_DEPENDS:INTERNAL=QI;ALERROR;BOOST;BOOST_FILESYSTEM;BOOST_THREAD;BOOST_SYSTEM;PTHREAD
 //ADVANCED property for variable: ALTHREAD_INCLUDE_DIRS
 ALTHREAD_INCLUDE_DIRS-ADVANCED:INTERNAL=1
-ALTHREAD_LIBRARIES:INTERNAL=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libalthread.dylib
+ALTHREAD_LIBRARIES:INTERNAL=/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/sdk/lib/libalthread.dylib
 ALTHREAD_PACKAGE_FOUND:INTERNAL=TRUE
 ALTHREAD_SEARCHED:INTERNAL=TRUE
 ALVALUE_DEPENDS:INTERNAL=ALERROR;BOOST
 //ADVANCED property for variable: ALVALUE_INCLUDE_DIRS
 ALVALUE_INCLUDE_DIRS-ADVANCED:INTERNAL=1
-ALVALUE_LIBRARIES:INTERNAL=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libalvalue.dylib
+ALVALUE_LIBRARIES:INTERNAL=/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/sdk/lib/libalvalue.dylib
 ALVALUE_PACKAGE_FOUND:INTERNAL=TRUE
 ALVALUE_SEARCHED:INTERNAL=TRUE
 //ADVANCED property for variable: BOOST_FILESYSTEM_DEFINITIONS
@@ -513,11 +492,7 @@ BOOST_FILESYSTEM_DEPENDS:INTERNAL=BOOST_SYSTEM
 BOOST_FILESYSTEM_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: BOOST_FILESYSTEM_EXECUTABLE_DEBUG
 BOOST_FILESYSTEM_EXECUTABLE_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BOOST_FILESYSTEM_INCLUDE_DIRS
-BOOST_FILESYSTEM_INCLUDE_DIRS-ADVANCED:INTERNAL=1
 BOOST_FILESYSTEM_INCLUDE_DIRS:INTERNAL=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include
-//ADVANCED property for variable: BOOST_FILESYSTEM_LIBRARIES
-BOOST_FILESYSTEM_LIBRARIES-ADVANCED:INTERNAL=1
 BOOST_FILESYSTEM_LIBRARIES:INTERNAL=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libboost_filesystem-mt.a
 BOOST_FILESYSTEM_PACKAGE_FOUND:INTERNAL=TRUE
 BOOST_FILESYSTEM_SEARCHED:INTERNAL=TRUE
@@ -529,11 +504,7 @@ BOOST_PROGRAM_OPTIONS_DEFINITIONS-ADVANCED:INTERNAL=1
 BOOST_PROGRAM_OPTIONS_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: BOOST_PROGRAM_OPTIONS_EXECUTABLE_DEBUG
 BOOST_PROGRAM_OPTIONS_EXECUTABLE_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BOOST_PROGRAM_OPTIONS_INCLUDE_DIRS
-BOOST_PROGRAM_OPTIONS_INCLUDE_DIRS-ADVANCED:INTERNAL=1
 BOOST_PROGRAM_OPTIONS_INCLUDE_DIRS:INTERNAL=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include
-//ADVANCED property for variable: BOOST_PROGRAM_OPTIONS_LIBRARIES
-BOOST_PROGRAM_OPTIONS_LIBRARIES-ADVANCED:INTERNAL=1
 BOOST_PROGRAM_OPTIONS_LIBRARIES:INTERNAL=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libboost_program_options-mt.a
 BOOST_PROGRAM_OPTIONS_PACKAGE_FOUND:INTERNAL=TRUE
 BOOST_PROGRAM_OPTIONS_SEARCHED:INTERNAL=TRUE
@@ -544,11 +515,7 @@ BOOST_SIGNALS_DEFINITIONS-ADVANCED:INTERNAL=1
 BOOST_SIGNALS_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: BOOST_SIGNALS_EXECUTABLE_DEBUG
 BOOST_SIGNALS_EXECUTABLE_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BOOST_SIGNALS_INCLUDE_DIRS
-BOOST_SIGNALS_INCLUDE_DIRS-ADVANCED:INTERNAL=1
 BOOST_SIGNALS_INCLUDE_DIRS:INTERNAL=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include
-//ADVANCED property for variable: BOOST_SIGNALS_LIBRARIES
-BOOST_SIGNALS_LIBRARIES-ADVANCED:INTERNAL=1
 BOOST_SIGNALS_LIBRARIES:INTERNAL=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libboost_signals-mt.a
 BOOST_SIGNALS_PACKAGE_FOUND:INTERNAL=TRUE
 BOOST_SIGNALS_SEARCHED:INTERNAL=TRUE
@@ -558,11 +525,7 @@ BOOST_SYSTEM_DEFINITIONS-ADVANCED:INTERNAL=1
 BOOST_SYSTEM_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: BOOST_SYSTEM_EXECUTABLE_DEBUG
 BOOST_SYSTEM_EXECUTABLE_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BOOST_SYSTEM_INCLUDE_DIRS
-BOOST_SYSTEM_INCLUDE_DIRS-ADVANCED:INTERNAL=1
 BOOST_SYSTEM_INCLUDE_DIRS:INTERNAL=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include
-//ADVANCED property for variable: BOOST_SYSTEM_LIBRARIES
-BOOST_SYSTEM_LIBRARIES-ADVANCED:INTERNAL=1
 BOOST_SYSTEM_LIBRARIES:INTERNAL=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libboost_system-mt.a
 BOOST_SYSTEM_PACKAGE_FOUND:INTERNAL=TRUE
 BOOST_SYSTEM_SEARCHED:INTERNAL=TRUE
@@ -573,11 +536,7 @@ BOOST_THREAD_DEPENDS:INTERNAL=PTHREAD
 BOOST_THREAD_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: BOOST_THREAD_EXECUTABLE_DEBUG
 BOOST_THREAD_EXECUTABLE_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BOOST_THREAD_INCLUDE_DIRS
-BOOST_THREAD_INCLUDE_DIRS-ADVANCED:INTERNAL=1
 BOOST_THREAD_INCLUDE_DIRS:INTERNAL=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include
-//ADVANCED property for variable: BOOST_THREAD_LIBRARIES
-BOOST_THREAD_LIBRARIES-ADVANCED:INTERNAL=1
 BOOST_THREAD_LIBRARIES:INTERNAL=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libboost_thread-mt.a
 BOOST_THREAD_PACKAGE_FOUND:INTERNAL=TRUE
 BOOST_THREAD_SEARCHED:INTERNAL=TRUE
@@ -629,8 +588,6 @@ Boost_THREAD_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 Boost_THREAD_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //The version number for boost libraries
 Boost_VERSION:INTERNAL=104800
-//ADVANCED property for variable: CMAKE_AR
-CMAKE_AR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_BUILD_TOOL
 CMAKE_BUILD_TOOL-ADVANCED:INTERNAL=1
 //What is the target build tool cmake is generating for.
@@ -651,8 +608,6 @@ CMAKE_COMMAND:INTERNAL=/Applications/CMake 2.8-10.app/Contents/bin/cmake
 CMAKE_CPACK_COMMAND:INTERNAL=/Applications/CMake 2.8-10.app/Contents/bin/cpack
 //Path to ctest program executable.
 CMAKE_CTEST_COMMAND:INTERNAL=/Applications/CMake 2.8-10.app/Contents/bin/ctest
-//ADVANCED property for variable: CMAKE_CXX_COMPILER
-CMAKE_CXX_COMPILER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS
 CMAKE_CXX_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_DEBUG
@@ -663,8 +618,6 @@ CMAKE_CXX_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_CXX_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_RELWITHDEBINFO
 CMAKE_CXX_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_C_COMPILER
-CMAKE_C_COMPILER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_FLAGS
 CMAKE_C_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_FLAGS_DEBUG
@@ -677,8 +630,6 @@ CMAKE_C_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_C_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //Path to cache edit program executable.
 CMAKE_EDIT_COMMAND:INTERNAL=/Applications/CMake 2.8-10.app/Contents/bin/ccmake
-//Executable file format
-CMAKE_EXECUTABLE_FORMAT:INTERNAL=Unknown
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS
 CMAKE_EXE_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_DEBUG
@@ -691,7 +642,7 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_EXPORT_COMPILE_COMMANDS
 CMAKE_EXPORT_COMPILE_COMMANDS-ADVANCED:INTERNAL=1
-CMAKE_FIND_ROOT_PATH:INTERNAL=/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/sdk;/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64;/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64;/Users/nicolasbernier/Documents/NAO/1.14.1/qibuild-1.14.1/cmake/qibuild/modules/
+CMAKE_FIND_ROOT_PATH:INTERNAL=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64;/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64;/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/sdk;/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64;/Users/nicolasbernier/Documents/NAO/1.14.1/qibuild-1.14.1/cmake/qibuild/modules/
 //Name of generator.
 CMAKE_GENERATOR:INTERNAL=Unix Makefiles
 //Have symbol pthread_create
@@ -703,8 +654,6 @@ CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 CMAKE_HOME_DIRECTORY:INTERNAL=/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ
 //ADVANCED property for variable: CMAKE_INSTALL_NAME_TOOL
 CMAKE_INSTALL_NAME_TOOL-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_LINKER
-CMAKE_LINKER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MAKE_PROGRAM
 CMAKE_MAKE_PROGRAM-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS
@@ -718,16 +667,8 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 CMAKE_MODULE_PATH:INTERNAL=/Users/nicolasbernier/Documents/NAO/1.14.1/qibuild-1.14.1/cmake;/Users/nicolasbernier/Documents/NAO/1.14.1/qibuild-1.14.1/cmake/qibuild/..
-//ADVANCED property for variable: CMAKE_NM
-CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
 CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=1
-//ADVANCED property for variable: CMAKE_OBJCOPY
-CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_OBJDUMP
-CMAKE_OBJDUMP-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_RANLIB
-CMAKE_RANLIB-ADVANCED:INTERNAL=1
 //Path to CMake installation.
 CMAKE_ROOT:INTERNAL=/Applications/CMake 2.8-10.app/Contents/share/cmake-2.8
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS
@@ -744,10 +685,6 @@ CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 CMAKE_SKIP_INSTALL_RPATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_SKIP_RPATH
 CMAKE_SKIP_RPATH-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_STRIP
-CMAKE_STRIP-ADVANCED:INTERNAL=1
-//uname command
-CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_USE_RELATIVE_PATHS
 CMAKE_USE_RELATIVE_PATHS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
@@ -758,11 +695,7 @@ DL_DEFINITIONS-ADVANCED:INTERNAL=1
 DL_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: DL_EXECUTABLE_DEBUG
 DL_EXECUTABLE_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: DL_INCLUDE_DIRS
-DL_INCLUDE_DIRS-ADVANCED:INTERNAL=1
 DL_INCLUDE_DIRS:INTERNAL=/usr/include
-//ADVANCED property for variable: DL_LIBRARIES
-DL_LIBRARIES-ADVANCED:INTERNAL=1
 DL_LIBRARIES:INTERNAL=general;/usr/lib/libdl.dylib
 DL_PACKAGE_FOUND:INTERNAL=TRUE
 DL_SEARCHED:INTERNAL=TRUE
@@ -776,18 +709,14 @@ PTHREAD_DEFINITIONS-ADVANCED:INTERNAL=1
 PTHREAD_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PTHREAD_EXECUTABLE_DEBUG
 PTHREAD_EXECUTABLE_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: PTHREAD_INCLUDE_DIRS
-PTHREAD_INCLUDE_DIRS-ADVANCED:INTERNAL=1
 PTHREAD_INCLUDE_DIRS:INTERNAL=/usr/include
-//ADVANCED property for variable: PTHREAD_LIBRARIES
-PTHREAD_LIBRARIES-ADVANCED:INTERNAL=1
 PTHREAD_LIBRARIES:INTERNAL=general;/usr/lib/libpthread.dylib
 PTHREAD_PACKAGE_FOUND:INTERNAL=TRUE
 PTHREAD_SEARCHED:INTERNAL=TRUE
 QI_DEPENDS:INTERNAL=BOOST_FILESYSTEM;BOOST_THREAD;BOOST_SYSTEM;PTHREAD
 //ADVANCED property for variable: QI_INCLUDE_DIRS
 QI_INCLUDE_DIRS-ADVANCED:INTERNAL=1
-QI_LIBRARIES:INTERNAL=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libqi.dylib
+QI_LIBRARIES:INTERNAL=/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/sdk/lib/libqi.dylib
 QI_PACKAGE_FOUND:INTERNAL=TRUE
 //ADVANCED property for variable: QI_SDK_BIN
 QI_SDK_BIN-ADVANCED:INTERNAL=1
@@ -819,13 +748,13 @@ QI_SEARCHED:INTERNAL=TRUE
 RTTOOLS_DEPENDS:INTERNAL=QI;BOOST_FILESYSTEM;BOOST_THREAD;BOOST_SYSTEM;PTHREAD
 //ADVANCED property for variable: RTTOOLS_INCLUDE_DIRS
 RTTOOLS_INCLUDE_DIRS-ADVANCED:INTERNAL=1
-RTTOOLS_LIBRARIES:INTERNAL=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/librttools.dylib
+RTTOOLS_LIBRARIES:INTERNAL=/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/sdk/lib/librttools.dylib
 RTTOOLS_PACKAGE_FOUND:INTERNAL=TRUE
 RTTOOLS_SEARCHED:INTERNAL=TRUE
 TINYXML_DEPENDS:INTERNAL=
 //ADVANCED property for variable: TINYXML_INCLUDE_DIRS
 TINYXML_INCLUDE_DIRS-ADVANCED:INTERNAL=1
-TINYXML_LIBRARIES:INTERNAL=/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libtinyxml.dylib
+TINYXML_LIBRARIES:INTERNAL=/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/sdk/lib/libtinyxml.dylib
 TINYXML_PACKAGE_FOUND:INTERNAL=TRUE
 TINYXML_SEARCHED:INTERNAL=TRUE
 //ADVANCED property for variable: _QI_USE_LIB_NAO_RJJ

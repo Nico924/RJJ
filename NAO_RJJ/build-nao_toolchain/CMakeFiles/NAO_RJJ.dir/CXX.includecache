@@ -11,10 +11,10 @@ iostream
 -
 move.h
 /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/move.h
-
-/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/move.cpp
-move.h
-/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/move.h
+robot.h
+/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/robot.h
+robotsmanager.h
+/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/robotsmanager.h
 
 /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/move.h
 alerror/alerror.h
@@ -23,6 +23,26 @@ alproxies/almotionproxy.h
 -
 alproxies/alrobotpostureproxy.h
 -
+
+/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/robot.h
+alerror/alerror.h
+-
+alproxies/almotionproxy.h
+-
+alproxies/alrobotpostureproxy.h
+-
+cmath
+-
+
+/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/robotsmanager.h
+alerror/alerror.h
+-
+alproxies/almotionproxy.h
+-
+alproxies/alrobotpostureproxy.h
+-
+robot.h
+/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/robot.h
 
 /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alerror/alerror.h
 alerror/config.h

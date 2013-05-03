@@ -1,0 +1,38 @@
+#VRML_SIM V6.0 utf8
+WorldInfo {
+  info [
+    "Description"
+    "Author: first name last name <e-mail>"
+    "Date: DD MMM YYYY"
+  ]
+}
+Viewpoint {
+  orientation -0.287515 0.928273 0.235891 1.20182
+  position 34.1484 17.8971 17.3943
+}
+Background {
+  skyColor [
+    0.4 0.7 1
+  ]
+}
+Floor {
+  size 14 14
+  scale 11 11
+}
+Nao_H25_V40 {
+  translation 0.000114017 0.333193 5.85895e-05
+  rotation -1 0.000184318 -0.000184618 1.57062
+  color 0.002579 0.023377 0.941176
+}
+Nao_H25_V40 {
+  translation 0.000119112 0.333193 1.00006
+  rotation -1 0.00019862 -0.000199082 1.57062
+  color 0.757519 0.053071 0.115663
+  controllerArgs "9560"
+}
+PointLight {
+  ambientIntensity 1
+  attenuation 1 1 1
+  intensity 4
+  location 0 1.548 0
+}

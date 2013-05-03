@@ -6,6 +6,8 @@ SET(CMAKE_DEPENDS_LANGUAGES
 SET(CMAKE_DEPENDS_CHECK_CXX
   "/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/main.cpp" "/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles/NAO_RJJ.dir/main.cpp.o"
   "/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/move.cpp" "/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles/NAO_RJJ.dir/move.cpp.o"
+  "/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/robot.cpp" "/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles/NAO_RJJ.dir/robot.cpp.o"
+  "/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/robotsmanager.cpp" "/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles/NAO_RJJ.dir/robotsmanager.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "Clang")
 

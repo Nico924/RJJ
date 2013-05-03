@@ -11,6 +11,10 @@ set(_srcs
   move.cpp
   move.h
   main.cpp
+  robot.h
+  robot.cpp
+  robotsmanager.h
+  robotsmanager.cpp
 )
 
 # Create an executable named move,

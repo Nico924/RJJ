@@ -98,35 +98,85 @@ CMakeFiles/NAO_RJJ.dir/main.cpp.o.provides: CMakeFiles/NAO_RJJ.dir/main.cpp.o.re
 
 CMakeFiles/NAO_RJJ.dir/main.cpp.o.provides.build: CMakeFiles/NAO_RJJ.dir/main.cpp.o
 
+CMakeFiles/NAO_RJJ.dir/robot.cpp.o: CMakeFiles/NAO_RJJ.dir/flags.make
+CMakeFiles/NAO_RJJ.dir/robot.cpp.o: ../robot.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/NAO_RJJ.dir/robot.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/NAO_RJJ.dir/robot.cpp.o -c /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/robot.cpp
+
+CMakeFiles/NAO_RJJ.dir/robot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NAO_RJJ.dir/robot.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/robot.cpp > CMakeFiles/NAO_RJJ.dir/robot.cpp.i
+
+CMakeFiles/NAO_RJJ.dir/robot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NAO_RJJ.dir/robot.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/robot.cpp -o CMakeFiles/NAO_RJJ.dir/robot.cpp.s
+
+CMakeFiles/NAO_RJJ.dir/robot.cpp.o.requires:
+.PHONY : CMakeFiles/NAO_RJJ.dir/robot.cpp.o.requires
+
+CMakeFiles/NAO_RJJ.dir/robot.cpp.o.provides: CMakeFiles/NAO_RJJ.dir/robot.cpp.o.requires
+	$(MAKE) -f CMakeFiles/NAO_RJJ.dir/build.make CMakeFiles/NAO_RJJ.dir/robot.cpp.o.provides.build
+.PHONY : CMakeFiles/NAO_RJJ.dir/robot.cpp.o.provides
+
+CMakeFiles/NAO_RJJ.dir/robot.cpp.o.provides.build: CMakeFiles/NAO_RJJ.dir/robot.cpp.o
+
+CMakeFiles/NAO_RJJ.dir/robotsmanager.cpp.o: CMakeFiles/NAO_RJJ.dir/flags.make
+CMakeFiles/NAO_RJJ.dir/robotsmanager.cpp.o: ../robotsmanager.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/NAO_RJJ.dir/robotsmanager.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/NAO_RJJ.dir/robotsmanager.cpp.o -c /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/robotsmanager.cpp
+
+CMakeFiles/NAO_RJJ.dir/robotsmanager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NAO_RJJ.dir/robotsmanager.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/robotsmanager.cpp > CMakeFiles/NAO_RJJ.dir/robotsmanager.cpp.i
+
+CMakeFiles/NAO_RJJ.dir/robotsmanager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NAO_RJJ.dir/robotsmanager.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/robotsmanager.cpp -o CMakeFiles/NAO_RJJ.dir/robotsmanager.cpp.s
+
+CMakeFiles/NAO_RJJ.dir/robotsmanager.cpp.o.requires:
+.PHONY : CMakeFiles/NAO_RJJ.dir/robotsmanager.cpp.o.requires
+
+CMakeFiles/NAO_RJJ.dir/robotsmanager.cpp.o.provides: CMakeFiles/NAO_RJJ.dir/robotsmanager.cpp.o.requires
+	$(MAKE) -f CMakeFiles/NAO_RJJ.dir/build.make CMakeFiles/NAO_RJJ.dir/robotsmanager.cpp.o.provides.build
+.PHONY : CMakeFiles/NAO_RJJ.dir/robotsmanager.cpp.o.provides
+
+CMakeFiles/NAO_RJJ.dir/robotsmanager.cpp.o.provides.build: CMakeFiles/NAO_RJJ.dir/robotsmanager.cpp.o
+
 # Object files for target NAO_RJJ
 NAO_RJJ_OBJECTS = \
 "CMakeFiles/NAO_RJJ.dir/move.cpp.o" \
-"CMakeFiles/NAO_RJJ.dir/main.cpp.o"
+"CMakeFiles/NAO_RJJ.dir/main.cpp.o" \
+"CMakeFiles/NAO_RJJ.dir/robot.cpp.o" \
+"CMakeFiles/NAO_RJJ.dir/robotsmanager.cpp.o"
 
 # External object files for target NAO_RJJ
 NAO_RJJ_EXTERNAL_OBJECTS =
 
 sdk/bin/NAO_RJJ: CMakeFiles/NAO_RJJ.dir/move.cpp.o
 sdk/bin/NAO_RJJ: CMakeFiles/NAO_RJJ.dir/main.cpp.o
+sdk/bin/NAO_RJJ: CMakeFiles/NAO_RJJ.dir/robot.cpp.o
+sdk/bin/NAO_RJJ: CMakeFiles/NAO_RJJ.dir/robotsmanager.cpp.o
 sdk/bin/NAO_RJJ: CMakeFiles/NAO_RJJ.dir/build.make
 sdk/bin/NAO_RJJ: /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libalmemoryfastaccess.a
-sdk/bin/NAO_RJJ: /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libalproxies.dylib
-sdk/bin/NAO_RJJ: /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libalproxies.dylib
-sdk/bin/NAO_RJJ: /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libalcommon.dylib
+sdk/bin/NAO_RJJ: sdk/lib/libalproxies.dylib
+sdk/bin/NAO_RJJ: sdk/lib/libalproxies.dylib
+sdk/bin/NAO_RJJ: sdk/lib/libalcommon.dylib
 sdk/bin/NAO_RJJ: /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libalsoap.a
-sdk/bin/NAO_RJJ: /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/librttools.dylib
-sdk/bin/NAO_RJJ: /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libalthread.dylib
+sdk/bin/NAO_RJJ: sdk/lib/librttools.dylib
+sdk/bin/NAO_RJJ: sdk/lib/libalthread.dylib
 sdk/bin/NAO_RJJ: /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libboost_signals-mt.a
 sdk/bin/NAO_RJJ: /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libboost_program_options-mt.a
-sdk/bin/NAO_RJJ: /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libalvalue.dylib
-sdk/bin/NAO_RJJ: /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libtinyxml.dylib
-sdk/bin/NAO_RJJ: /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libqi.dylib
+sdk/bin/NAO_RJJ: sdk/lib/libalvalue.dylib
+sdk/bin/NAO_RJJ: sdk/lib/libtinyxml.dylib
+sdk/bin/NAO_RJJ: sdk/lib/libqi.dylib
 sdk/bin/NAO_RJJ: /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libboost_filesystem-mt.a
 sdk/bin/NAO_RJJ: /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libboost_thread-mt.a
 sdk/bin/NAO_RJJ: /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libboost_system-mt.a
 sdk/bin/NAO_RJJ: /usr/lib/libpthread.dylib
 sdk/bin/NAO_RJJ: /usr/lib/libdl.dylib
-sdk/bin/NAO_RJJ: /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/lib/libalerror.dylib
+sdk/bin/NAO_RJJ: sdk/lib/libalerror.dylib
 sdk/bin/NAO_RJJ: CMakeFiles/NAO_RJJ.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable sdk/bin/NAO_RJJ"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NAO_RJJ.dir/link.txt --verbose=$(VERBOSE)
@@ -137,6 +187,8 @@ CMakeFiles/NAO_RJJ.dir/build: sdk/bin/NAO_RJJ
 
 CMakeFiles/NAO_RJJ.dir/requires: CMakeFiles/NAO_RJJ.dir/move.cpp.o.requires
 CMakeFiles/NAO_RJJ.dir/requires: CMakeFiles/NAO_RJJ.dir/main.cpp.o.requires
+CMakeFiles/NAO_RJJ.dir/requires: CMakeFiles/NAO_RJJ.dir/robot.cpp.o.requires
+CMakeFiles/NAO_RJJ.dir/requires: CMakeFiles/NAO_RJJ.dir/robotsmanager.cpp.o.requires
 .PHONY : CMakeFiles/NAO_RJJ.dir/requires
 
 CMakeFiles/NAO_RJJ.dir/clean:
