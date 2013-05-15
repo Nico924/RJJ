@@ -6,23 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/main.cpp
-iostream
--
-move.h
-/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/move.h
+/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/robot.cpp
 robot.h
 /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/robot.h
-robotsmanager.h
-/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/robotsmanager.h
-
-/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/move.h
-alerror/alerror.h
--
-alproxies/almotionproxy.h
--
-alproxies/alrobotpostureproxy.h
--
 
 /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/robot.h
 alerror/alerror.h
@@ -33,16 +19,10 @@ alproxies/alrobotpostureproxy.h
 -
 cmath
 -
-
-/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/robotsmanager.h
-alerror/alerror.h
+alproxies/alsonarproxy.h
 -
-alproxies/almotionproxy.h
+alproxies/allaserproxy.h
 -
-alproxies/alrobotpostureproxy.h
--
-robot.h
-/Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/robot.h
 
 /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alerror/alerror.h
 alerror/config.h
@@ -53,6 +33,22 @@ string
 -
 
 /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alerror/config.h
+
+/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alproxies/allaserproxy.h
+alproxies/allaserproxyposthandler.h
+-
+alproxies/api.h
+-
+
+/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alproxies/allaserproxyposthandler.h
+boost/shared_ptr.hpp
+-
+alvalue/alvalue.h
+-
+string
+-
+vector
+-
 
 /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alproxies/almotionproxy.h
 alproxies/almotionproxyposthandler.h
@@ -77,6 +73,22 @@ alproxies/api.h
 -
 
 /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alproxies/alrobotpostureproxyposthandler.h
+boost/shared_ptr.hpp
+-
+alvalue/alvalue.h
+-
+string
+-
+vector
+-
+
+/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alproxies/alsonarproxy.h
+alproxies/alsonarproxyposthandler.h
+-
+alproxies/api.h
+-
+
+/Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alproxies/alsonarproxyposthandler.h
 boost/shared_ptr.hpp
 -
 alvalue/alvalue.h

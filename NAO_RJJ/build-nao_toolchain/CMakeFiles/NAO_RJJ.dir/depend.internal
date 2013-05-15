@@ -8,10 +8,14 @@ CMakeFiles/NAO_RJJ.dir/main.cpp.o
  /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/robotsmanager.h
  /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alerror/alerror.h
  /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alerror/config.h
+ /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alproxies/allaserproxy.h
+ /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alproxies/allaserproxyposthandler.h
  /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alproxies/almotionproxy.h
  /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alproxies/almotionproxyposthandler.h
  /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alproxies/alrobotpostureproxy.h
  /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alproxies/alrobotpostureproxyposthandler.h
+ /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alproxies/alsonarproxy.h
+ /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alproxies/alsonarproxyposthandler.h
  /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alproxies/api.h
  /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alvalue/alvalue.h
  /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alvalue/config.h
@@ -496,10 +500,14 @@ CMakeFiles/NAO_RJJ.dir/robot.cpp.o
  /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/robot.h
  /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alerror/alerror.h
  /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alerror/config.h
+ /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alproxies/allaserproxy.h
+ /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alproxies/allaserproxyposthandler.h
  /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alproxies/almotionproxy.h
  /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alproxies/almotionproxyposthandler.h
  /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alproxies/alrobotpostureproxy.h
  /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alproxies/alrobotpostureproxyposthandler.h
+ /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alproxies/alsonarproxy.h
+ /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alproxies/alsonarproxyposthandler.h
  /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alproxies/api.h
  /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alvalue/alvalue.h
  /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alvalue/config.h
@@ -741,10 +749,14 @@ CMakeFiles/NAO_RJJ.dir/robotsmanager.cpp.o
  /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/robotsmanager.h
  /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alerror/alerror.h
  /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alerror/config.h
+ /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alproxies/allaserproxy.h
+ /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alproxies/allaserproxyposthandler.h
  /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alproxies/almotionproxy.h
  /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alproxies/almotionproxyposthandler.h
  /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alproxies/alrobotpostureproxy.h
  /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alproxies/alrobotpostureproxyposthandler.h
+ /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alproxies/alsonarproxy.h
+ /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alproxies/alsonarproxyposthandler.h
  /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alproxies/api.h
  /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alvalue/alvalue.h
  /Users/nicolasbernier/Documents/NAO/1.14.1/naoqi-sdk-1.14.1-mac64/include/alvalue/config.h

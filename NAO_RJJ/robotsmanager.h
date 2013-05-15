@@ -12,10 +12,10 @@ using namespace std;
 class RobotsManager
 {
 public:
-    RobotsManager(int dxOtherSystem);
-    void moveTo(Robot *robot1,Robot *robot2);
+    RobotsManager(float dxRobots);
+    void goPositionAttack(Robot *robot1,Robot *robot2);
 private:
-    int dxOtherSystem;
+    float dxRobots;
 };
 
 #endif // ROBOTSMANAGER_H

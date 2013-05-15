@@ -16,7 +16,6 @@
 #include "robot.h"
 #include "robotsmanager.h"
 
-void launchShrimp();
 
 int main(int argc, char* argv[]) {
 
@@ -33,16 +32,26 @@ int main(int argc, char* argv[]) {
     Robot* robotOne=new Robot(argv[1],9559);
     Robot* robotTwo=new Robot(argv[1],9560);
     //small init
-    robotOne->standUp();
-    robotTwo->standUp();
     Robot* currentRobot=robotOne;
-    RobotsManager robotsManager(7);
+    RobotsManager robotsManager(1.2f);
 
-    cout << "Input something to continue : help for help" << endl << "IMPORTANT : Wait that the robot stop moving to type another command !"<<endl;
+    cout << "Input something to continue (stand then init): help for help" << endl << "IMPORTANT : Wait that the robot stop moving to type another command !"<<endl;
     while(continueProgram)
     {
         cin >> input;
-        if(input=="robot1"){
+        //small functionnalities
+        if(input=="stand"){
+            robotOne->standUp();
+            robotTwo->standUp();
+        }
+        else if(input=="getAll"){
+            currentRobot->computeInfo();
+        }
+        else if(input=="init"){
+            robotOne->init();
+            robotTwo->init();
+        }
+        else if(input=="robot1"){
             currentRobot=robotOne;
         }
         else if(input=="robot2"){
@@ -51,13 +60,18 @@ int main(int argc, char* argv[]) {
         else if(input=="exit"){
             continueProgram=false;
         }
-        else if(input=="attack"){
+        else if(input=="posAttack"){
+            //currentRobot have to be in position lying back
+            currentRobot->lyingBack();
             if(currentRobot==robotOne){
-                 robotsManager.moveTo(currentRobot,robotTwo);
+                 robotsManager.goPositionAttack(currentRobot,robotTwo);
             }
             else{
-                robotsManager.moveTo(currentRobot,robotOne);
+                robotsManager.goPositionAttack(currentRobot,robotOne);
             }
+        }
+        else if(input=="attack"){
+            //the robot that will be attacked have to be in Crouch positon between legs of the other robots
         }
         else if(input=="moveTo"){
             cout << "Enter dx, dy, dthéta (by pressing enter each time)"<<endl;
@@ -69,8 +83,18 @@ int main(int argc, char* argv[]) {
         else if(input=="getPos"){
             cout << currentRobot->getMotion()->getRobotPosition(false) << endl;
         }
+        else if(input=="pos"){
+            cout << "Input a joint name (see doc)" << endl;
+            cin >> inputJoint;
+            cout << currentRobot->getMotion()->getPosition(inputJoint,1,true) << endl;
+
+        }
+        //for only one robot
         else if(input=="standup"){
             currentRobot->standUp();
+        }
+        else if(input=="crouch"){
+            currentRobot->getRobotPosture()->goToPosture("Crouch",0.5f);
         }
         else if(input=="lyingBack"){
             currentRobot->lyingBack();
@@ -87,7 +111,7 @@ int main(int argc, char* argv[]) {
             currentRobot->moveSpecificJoint(inputJoint,angle);
         }
         else if(input=="help"){
-                cout << "Command are:\nrobot1 to use robot1\nrobot2 tu use only robot2\nattack\nmove to\nstandup \nlyingBack \nshrimp \nmoveJoint\nhelp\n exit "<<endl;
+                cout << "Command are:\nFOR BOTH:\nstand\ninit\nposAttack\nFOR ONE:\nrobot1 to use robot1\nrobot2 tu use only robot2\nmoveTo\nstandup \nlyingBack \nshrimp \nmoveJoint\nhelp\nexit "<<endl;
             }
         else{
             cout << "wrond command ! type help for help" << endl;

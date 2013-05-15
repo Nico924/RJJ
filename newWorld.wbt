@@ -7,8 +7,8 @@ WorldInfo {
   ]
 }
 Viewpoint {
-  orientation -0.287515 0.928273 0.235891 1.20182
-  position 34.1484 17.8971 17.3943
+  orientation -0.113503 0.98071 0.159137 1.55667
+  position 47.4315 14.1743 1.19475
 }
 Background {
   skyColor [
@@ -20,15 +20,16 @@ Floor {
   scale 11 11
 }
 Nao_H25_V40 {
-  translation 0.000114017 0.333193 5.85895e-05
-  rotation -1 0.000184318 -0.000184618 1.57062
-  color 0.002579 0.023377 0.941176
+  translation 0.00132707 0.332091 0.00855185
+  rotation 0.581854 0.579944 0.570185 -2.11039
 }
 Nao_H25_V40 {
-  translation 0.000119112 0.333193 1.00006
-  rotation -1 0.00019862 -0.000199082 1.57062
+  translation 0.00791296 0.332092 0.980031
+  rotation -0.585619 0.565397 0.580842 2.06771
   color 0.757519 0.053071 0.115663
   controllerArgs "9560"
+  topCameraWindowPosition 0.912949 0.13245
+  bottomCameraWindowPosition 0.899891 0.86755
 }
 PointLight {
   ambientIntensity 1

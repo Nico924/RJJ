@@ -240,3 +240,43 @@ int main(int argc, char** argv)
 #endif
 }
 
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1562473833/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1562473833.dir/build.make CMakeFiles/cmTryCompileExec1562473833.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1562473833.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1562473833.dir/CheckIncludeFiles.c.o   -c /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1562473833
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec1562473833.dir/link.txt --verbose=1
+/usr/bin/cc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1562473833.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1562473833  
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3541880648/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3541880648.dir/build.make CMakeFiles/cmTryCompileExec3541880648.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3541880648.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3541880648.dir/CheckSymbolExists.c.o   -c /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3541880648
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec3541880648.dir/link.txt --verbose=1
+/usr/bin/cc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec3541880648.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3541880648  
+
+File /Users/nicolasbernier/Desktop/RJJ/NAO_RJJ/build-nao_toolchain/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

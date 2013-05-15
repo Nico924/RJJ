@@ -5,12 +5,29 @@ Robot::Robot(char* ip,int port)
     try{
         this->motion=new AL::ALMotionProxy(ip,port);
         this->posture=new AL::ALRobotPostureProxy(ip,port);
+        //laser=new AL::ALLaserProxy(ip,port);
     }
     catch (const AL::ALError& e) {
         cerr << "Caught exception: " << e.what() << std::endl;
         exit(1);
     }
+    this->origX=0.0f;
+    this->origY=0.0f;
+    this->origTheta=0.0f;
 }
+void Robot::computeInfo(){
+   // laser->setDetectingLength(500,3000);
+   // laser->setOpeningAngle(-1.570796327,1.570796327);
+}
+void Robot::init(){
+    std::vector<float> pos = this->motion->getPosition("Torso",1,true);
+
+    this->origX=pos.at(0);
+    this->origY=pos.at(1);
+    this->origTheta=pos.at(2);
+    cout << "(" << this->origX << "," << this->origY << "," << this->origTheta <<")"<<endl;
+}
+
 void Robot::moveHead(){
     /** The name of the joint to be moved. */
     const AL::ALValue jointName = "HeadYaw";
@@ -90,8 +107,7 @@ void Robot::moveSpecificJoint(std::string jointName,float radian){
     AL::ALValue times = AL::ALValue::array(1.0f);
     motion->angleInterpolation(joints,angles,times,true);
 }
-
-void Robot::shrimpPosition(){
+void Robot::putLegsUp(){
     //if robot is in position LyingBack (have to had verif)
 
     // Puts leg up
@@ -101,10 +117,18 @@ void Robot::shrimpPosition(){
     AL::ALValue angles=AL::ALValue::array(0.0f,-0.6f,0.0f,-0.3f,0.0f,0.0f,-0.6f,0.0f,-0.3f,0.0f);
 
     motion->angleInterpolation(joints,angles,times,true);
+}
+
+void Robot::shrimpPosition(){
+    //if robot is in position LyingBack (have to had verif)
+
+    this->putLegsUp();
 
     // Puts arms up
-    joints = AL::ALValue::array("LShoulderPitch","LShoulderRoll","LElbowYaw","LElbowRoll","LWristYaw","RShoulderPitch","RShoulderRoll","RElbowYaw","RElbowRoll","RWristYaw");
-    angles=AL::ALValue::array(0.5f,0.0f,0.0f,0.0f,0.0f,0.5f,0.0f,0.0f,0.0f,0.0f);
+    AL::ALValue joints = AL::ALValue::array("LShoulderPitch","LShoulderRoll","LElbowYaw","LElbowRoll","LWristYaw","RShoulderPitch","RShoulderRoll","RElbowYaw","RElbowRoll","RWristYaw");
+    AL::ALValue angles=AL::ALValue::array(0.5f,0.0f,0.0f,0.0f,0.0f,0.5f,0.0f,0.0f,0.0f,0.0f);
+    AL::ALValue times = AL::ALValue::array(1.0f,1.0f,1.0f,1.0f,1.0f,1.0f,1.0f,1.0f,1.0f,1.0f);
+
     motion->angleInterpolation(joints,angles,times,true);
 
     //Move head and arm to the left
@@ -144,4 +168,13 @@ AL::ALMotionProxy* Robot::getMotion(){
 }
 AL::ALRobotPostureProxy* Robot::getRobotPosture(){
     return this->posture;
+}
+float Robot::getOrigx(){
+    return this->origX;
+}
+float Robot::getOrigy(){
+    return this->origY;
+}
+float Robot::getOrigTheta(){
+    return this->origTheta;
 }
