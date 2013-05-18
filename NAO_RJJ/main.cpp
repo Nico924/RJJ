@@ -18,8 +18,11 @@
 
 
 int main(int argc, char* argv[]) {
-
-    if(argc != 2)
+    bool oneRobot=false;
+    if(argc==3){
+        oneRobot=true;
+    }
+    else if(argc != 2)
     {
         cerr << "Wrong number of arguments!" << endl;
         cerr << "Usage: move NAO_IP" << endl;
@@ -29,12 +32,20 @@ int main(int argc, char* argv[]) {
     string input,inputJoint;
     float angle;
     float dx,dy;
-    Robot* robotOne=new Robot(argv[1],9559);
-    Robot* robotTwo=new Robot(argv[1],9560);
+    Robot* robotOne,*robotTwo;
+    robotOne=new Robot(argv[1],9559);
+    if(!oneRobot)
+        robotTwo=new Robot(argv[1],9560);
     //small init
     Robot* currentRobot=robotOne;
-    RobotsManager robotsManager(1.2f);
-
+    RobotsManager robotsManager;
+    //position absolute for the world start position !!!!!
+    //x in front of the robot, y on his left and theta is the angle around z
+    //robot two is looking at robot one
+    //origine is robot one
+    robotOne->setAbsPos(0.0f,0.0f,0.0f,0.10f);
+    if(!oneRobot)
+        robotTwo->setAbsPos(1.0f,0.0f,PI);
     cout << "Input something to continue (stand then init): help for help" << endl << "IMPORTANT : Wait that the robot stop moving to type another command !"<<endl;
     while(continueProgram)
     {
@@ -43,13 +54,6 @@ int main(int argc, char* argv[]) {
         if(input=="stand"){
             robotOne->standUp();
             robotTwo->standUp();
-        }
-        else if(input=="getAll"){
-            currentRobot->computeInfo();
-        }
-        else if(input=="init"){
-            robotOne->init();
-            robotTwo->init();
         }
         else if(input=="robot1"){
             currentRobot=robotOne;
@@ -70,9 +74,6 @@ int main(int argc, char* argv[]) {
                 robotsManager.goPositionAttack(currentRobot,robotOne);
             }
         }
-        else if(input=="attack"){
-            //the robot that will be attacked have to be in Crouch positon between legs of the other robots
-        }
         else if(input=="moveTo"){
             cout << "Enter dx, dy, dthéta (by pressing enter each time)"<<endl;
             cin >> dx;
@@ -80,8 +81,38 @@ int main(int argc, char* argv[]) {
             cin >> angle;
             currentRobot->getMotion()->moveTo(dx,dy,angle);
         }
+        else if(input=="move"){
+            cout << "Enter relative dx, dy, dthéta (by pressing enter each time)\n "<<endl;
+            cin >> dx;
+            cin >> dy;
+            cin >> angle;
+            currentRobot->moveRel(dx,dy,angle);
+        }
+        else if(input=="go"){
+            if(currentRobot==robotOne){
+                 robotsManager.moveRobots(currentRobot,robotTwo);
+            }
+            else{
+                robotsManager.moveRobots(currentRobot,robotOne);
+            }
+        }
+        else if(input=="grab"){
+            currentRobot->grabOpponent();
+        }
+        else if(input=="goCrouch"){
+            currentRobot->goCrouch();
+        }
+        else if(input=="openLegs"){
+            currentRobot->putLegsUp();
+            currentRobot->swerveLegs();
+        }
         else if(input=="getPos"){
-            cout << currentRobot->getMotion()->getRobotPosition(false) << endl;
+            cout << currentRobot->getAbsPos() << endl;
+            vector<float> pos=currentRobot->getMotion()->getPosition("CameraTop",1,true);
+            cout <<"CameraTop : "<<endl<< pos << endl;
+        }
+        else if(input=="attack"){
+            currentRobot->attack();
         }
         else if(input=="pos"){
             cout << "Input a joint name (see doc)" << endl;
@@ -102,7 +133,14 @@ int main(int argc, char* argv[]) {
         else if(input=="shrimp"){
             currentRobot->setHeadRight();
             currentRobot->shrimpPosition();
+            currentRobot->endShrimp();
         }
+        else if(input=="endShrimp"){
+            currentRobot->endShrimp();
+        }
+       /* else if(input=="red"){
+            currentRobot->detectRedBall();
+        }*/
         else if(input=="moveJoint"){
             cout << "Input a joint name (see doc)" << endl;
             cin >> inputJoint;
@@ -112,7 +150,7 @@ int main(int argc, char* argv[]) {
         }
         else if(input=="help"){
                 cout << "Command are:\nFOR BOTH:\nstand\ninit\nposAttack\nFOR ONE:\nrobot1 to use robot1\nrobot2 tu use only robot2\nmoveTo\nstandup \nlyingBack \nshrimp \nmoveJoint\nhelp\nexit "<<endl;
-            }
+         }
         else{
             cout << "wrond command ! type help for help" << endl;
         }
