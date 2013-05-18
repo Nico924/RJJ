@@ -15,6 +15,7 @@ set(_srcs
   robot.cpp
   robotsmanager.h
   robotsmanager.cpp
+  util.h
 )
 
 # Create an executable named move,
